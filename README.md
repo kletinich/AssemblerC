@@ -42,3 +42,11 @@ The relevant file type for the assemble is **.as**, other file types won't assem
 ### 4. Registers: ###
 | Register | `r0` | `r1` | `r2` | `r3` | `r4` | `r5` | `r6` | `r7` |
 |----------|------|------|------|------|------|------|------|------|
+
+
+## How to run: ##
+1. run makefile with the given c and h files.
+2. include the assembly test files in the same folder for testing.
+
+If the assemble procedure is successfull, [file name].ob of binary data, [file name].ent of entries, [file name].ext of externals.
+If the assemble procedure isn't successfull, no file will be created.
